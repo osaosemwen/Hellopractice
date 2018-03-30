@@ -21,7 +21,7 @@ Add this program or project to Git.
   The '.' indicates the present directory or folder, if you are not in your present directory enter the map to the repository you want initialized.
 - Confirm again that the file are initialized, using ``` $ git status ```.
 - Commit this files using ``` $ git commit ``` ("optionally you can add a message") using ``` $ git commit -m "Just added the file" ```
-- To connect local repo to your github account, create a project, it is recommended it is similar to your project name on local repository, copy the location of the repository from your github account, you will need these git link for in other push your files/repo to github, using ``` $ git remote add origin ``` $ https://github.com/osaosemwen/Hellopractice.git ``` next you will be prompted to enter your github account as well your password, if you have not already done so. 
+- To connect local repo to your github account, create a project, it is recommended it is similar to your project name on local repository, copy the location of the repository from your github account, you will need these git link for in other push your files/repo to github, using ``` $ git remote add origin $ https://github.com/osaosemwen/Hellopractice.git ``` next you will be prompted to enter your github account as well your password, if you have not already done so. 
 - To push the repo enter ``` $ git push -u origin master ```, 
   if you refresh your repository on github you would see a copy of all your local files commited to your github repo
 
