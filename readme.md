@@ -33,5 +33,7 @@ Add this program or project to Git.
 - Next go the the project initially configured on your Jenkins, click on configure, this time on the source code management option chose Git, instead of the defualt (None), Then enter the link to your repository on github on the columns that opens after clicking 'git'
 - I like to add build triggers, hence click on Poll SCM, and give the frequecy of the triggers you would like to use. (you can understand this by clicking on the question mark on the side. In my case I choose every 15 minutes. So, if there are any changes on the github this would trigger an automated build of the Job, from github account to jenkins. 
 
+### Running multiple jobs simultaneously, I recommend using catlight to recieve constant notification on changes or on builds carried out by jenkins server 
+
 Thats it Enjoy!! :)
 
