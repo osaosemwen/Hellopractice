@@ -13,7 +13,7 @@ write shell commands to run the program, as you would on a regular shell window.
 
 ### Step 3
 Add this program or project to Git.
-- Go to the location or folder of the the project from the terminal window on your macbook/windows ``` cd /Users/../../SampleJavaProject" ```
+- Go to the location or folder of the the project from the terminal window on your macbook/windows ```$ cd /Users/../../SampleJavaProject" ```
 - Initialize the repository entering ``` $ git init ```
 - Check the number of files in the repo, which has been initialized using ``` $ git status ``` , 
   if the files are not intialized it will be highlighted red. 
